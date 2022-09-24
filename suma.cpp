@@ -5,12 +5,12 @@ using namespace std;
 int main()
 {
 
- float x,y,z;
+ float NACJ_x,NACJ_y,NACJ_z;
  cout<<"Ingrese 2 numero x y :";
- cin>>x>>y;
- z=x+y;
+ cin>>NACJ_x>>NACJ_y;
+ NACJ_z=NACJ_x+NACJ_y;
  cout<<"El resutado es : ";
- cout<<z<<endl;
+ cout<<NACJ_z<<endl;
 
  return 0;
 

@@ -7,22 +7,22 @@ using namespace std;
 
 int main()
 {
-	float x,y,s,m,d,r;
+	float NACJ_x,NACJ_y,NACJ_s,NACJ_m,NACJ_d,NACJ_r;
 	//Ingreso de datos
 	cout<<"Ingrese en valor de x=:";
-	cin>>x;
+	cin>>NACJ_x;
 	cout<<"Ingrese en valor de y=:";
 	//Operaciones 
-	cin>>y;
-	s=x+y;
-	m=x*y;
-	d=x/y;
-	r=x-y;
+	cin>>NACJ_y;
+	NACJ_s=NACJ_x+NACJ_y;
+	NACJ_m=NACJ_x*NACJ_y;
+	NACJ_d=NACJ_x/NACJ_y;
+	NACJ_r=NACJ_x-NACJ_y;
 	//Muestra los resutaldos.
-	cout<<"Las suma de "<<x<<" + "<<y<<" = "<<s<<endl;
-	cout<<"Las multiplicacion de "<<x<<" * "<<y<<" = "<<m<<endl;
-	cout<<"Las division de "<<x<<" / "<<y<<" = "<<d<<endl;
-	cout<<"Las resta de "<<x<<" - "<<y<<" = "<<r<<endl;
+	cout<<"Las suma de "<<NACJ_x<<" + "<<NACJ_y<<" = "<<NACJ_s<<endl;
+	cout<<"Las multiplicacion de "<<NACJ_x<<" * "<<NACJ_y<<" = "<<NACJ_m<<endl;
+	cout<<"Las division de "<<NACJ_x<<" / "<<NACJ_y<<" = "<<NACJ_d<<endl;
+	cout<<"Las resta de "<<NACJ_x<<" - "<<NACJ_y<<" = "<<NACJ_r<<endl;
 	return 0 ;
 
 }
